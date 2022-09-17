@@ -101,14 +101,14 @@ class NavHeader extends Component {
             <div className="navbar-nav right">
               <li className="">
                 <Link to={"/profile"}>
-                  <button type="button" class="btn btn-outline-dark border-0">
+                  <button type="button" className="btn btn-outline-dark border-0">
                     {currentUser.username}
                   </button>
                 </Link>
               </li>
               <li className="">
                 <Link to="/login" onClick={this.logOut}>
-                  <button type="button" class="btn btn-danger">
+                  <button type="button" className="btn btn-danger">
                     Log Out
                   </button>
                 </Link>
@@ -118,7 +118,7 @@ class NavHeader extends Component {
             <div className="navbar-nav">
               <li className="">
                 <Link to={"/login"}>
-                  <button type="button" class="btn btn-outline-dark border-0">
+                  <button type="button" className="btn btn-outline-dark border-0">
                     Login
                   </button>
                 </Link>
@@ -126,7 +126,7 @@ class NavHeader extends Component {
 
               <li className="">
                 <Link to={"/register"}>
-                  <button type="button" class="btn btn-danger ml-4">
+                  <button type="button" className="btn btn-danger ml-4">
                     Sign Up
                   </button>
                 </Link>

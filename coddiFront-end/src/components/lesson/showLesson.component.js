@@ -23,7 +23,7 @@ export default function ShowLesson() {
   function TextTransform(props) {
     const text = props.stringText;
     const newText = text.split('\\n').map(
-      str => <p>
+      (str) => <p>
         {str.split('\\t').map(
           subStr => <span>&emsp;{subStr}</span>
         )}

@@ -34,7 +34,7 @@ function LessonsCourse() {
             </div>
           </div>
         </div>
-        <div className="col">
+        {/* <div className="col">
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">RANKING</h5>
@@ -60,7 +60,7 @@ function LessonsCourse() {
 
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
