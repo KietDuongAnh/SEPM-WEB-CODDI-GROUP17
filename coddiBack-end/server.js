@@ -25,7 +25,8 @@ const Role = db.role;
 db.mongoose
   .connect(
     process.env.MONGO_URL ||
-      `mongodb://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}`,
+      // `mongodb://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}`,
+      `mongodb+srv://coddi:coddi@cluster0.seijxnz.mongodb.net/?retryWrites=true&w=majority`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
