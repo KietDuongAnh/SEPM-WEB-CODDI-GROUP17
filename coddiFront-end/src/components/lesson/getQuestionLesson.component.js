@@ -33,7 +33,7 @@ function GetQuestion({ id }) {
   return (
     <div>
       {questions.map(({ aQuestion, answers, correct, _id }) => (
-        <div>
+        <div key={_id}>
           <DisplayQuestion
             key={_id}
             aQuestion={aQuestion}

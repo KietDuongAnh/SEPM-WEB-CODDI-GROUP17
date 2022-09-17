@@ -17,9 +17,9 @@ export default function DisplayQuestion({ aQuestion, answers, correct }) {
   function TextTransform(props) {
     const text = props.stringText;
     const newText = text.split('\\n').map(
-      str => <p>
+      str => <p key={str.toString()}>
         {str.split('\\t').map(
-          subStr => <span>&emsp;{subStr}</span>
+          subStr => <span key={subStr.toString()}>&emsp;{subStr}</span>
         )}
         </p>
       );
