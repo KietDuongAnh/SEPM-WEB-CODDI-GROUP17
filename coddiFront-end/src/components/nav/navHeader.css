@@ -1,0 +1,28 @@
+.nav-header {
+}
+.nav-header li.nav-item:hover {
+    border-bottom: 4px solid;
+    border-color: #365ED7;
+}
+
+.nav-admin li.nav-item {
+    border-bottom: 4px solid;
+    border-color: #DC3545;
+}
+
+.nav-admin li.nav-item:hover {
+    border-bottom: 4px solid;
+    border-color: #FFFFFF;
+}
+
+.nav-item-logo {
+    margin: auto 1.25rem;
+
+}
+.logo {
+    max-height: 2.813rem;
+}
+
+.nav-header .navbar-nav.right .btn {
+    margin-right: 0.9rem;
+}

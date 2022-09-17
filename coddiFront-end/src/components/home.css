@@ -1,0 +1,10 @@
+.home .card {
+    width: 300px;
+    height: 250px;
+    margin: 10px auto;
+
+
+}
+.home .card-body {
+    min-height: 200px;
+}
