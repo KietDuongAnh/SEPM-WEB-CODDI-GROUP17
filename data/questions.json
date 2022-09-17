@@ -1,0 +1,1467 @@
+[{
+  "_id": {
+    "$oid": "631220fa4f6ba82da0a75336"
+  },
+  "answers": [
+    "",
+    ""
+  ],
+  "aQuestion": "",
+  "description": "",
+  "correct": "",
+  "lesson": {
+    "$oid": "631217724f6ba82da0a7526f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631222dc4f6ba82da0a7538f"
+  },
+  "answers": [
+    "border",
+    "margin",
+    "line-height",
+    "padding"
+  ],
+  "aQuestion": "Which element's property you can be used to adjust the space between an element's content and its border ?",
+  "description": "None",
+  "correct": "padding",
+  "lesson": {
+    "$oid": "6312160e4f6ba82da0a75258"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631228204f6ba82da0a754f3"
+  },
+  "answers": [
+    "p { color: red }",
+    "<p> { color: blue }",
+    ".p { color: blue }",
+    "p { color: blue }"
+  ],
+  "aQuestion": "Set the color of all paragraph elements to blue.",
+  "description": "None",
+  "correct": "p { color: blue }",
+  "lesson": {
+    "$oid": "631212f94f6ba82da0a75229"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63122a0c4f6ba82da0a7550d"
+  },
+  "answers": [
+    "p { backgroundColor: red;  }",
+    "#p { background-color: red;  }",
+    "p { color: red;  }",
+    "p { background-color: red;  }"
+  ],
+  "aQuestion": "Which is the right syntax to set the background color of all paragraph elements ?",
+  "description": "None",
+  "correct": "p { background-color: red;  }",
+  "lesson": {
+    "$oid": "631215aa4f6ba82da0a75241"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63122a654f6ba82da0a7551e"
+  },
+  "answers": [
+    "align: center",
+    "text-align: center",
+    "padding: 10px auto",
+    "margin: 10px auto"
+  ],
+  "aQuestion": "You want to center a block element horizontally inside its parent. What is the CSS code that allows you to do so ?",
+  "description": "None",
+  "correct": "margin: 10px auto",
+  "lesson": {
+    "$oid": "631215fd4f6ba82da0a75254"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63122ae14f6ba82da0a75535"
+  },
+  "answers": [
+    "ul ~ li:last-child",
+    "ul:last-child",
+    "ul > li[last-child]",
+    "ul li:last-child"
+  ],
+  "aQuestion": "Which selector do you use to select the last list item in an unordered list ?",
+  "description": "None",
+  "correct": "ul li:last-child",
+  "lesson": {
+    "$oid": "631212f94f6ba82da0a75229"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63122cde4f6ba82da0a75559"
+  },
+  "answers": [
+    "tag",
+    "class",
+    "both class and tag",
+    "id"
+  ],
+  "aQuestion": "Which of the following CSS selector is used to specify a rule to bind a particular unique element?",
+  "description": "None",
+  "correct": "id",
+  "lesson": {
+    "$oid": "631212f94f6ba82da0a75229"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63122e7ec18ba449e0680f93"
+  },
+  "answers": [
+    "background-image-source",
+    "background-image",
+    "border-image",
+    "border-image-source"
+  ],
+  "aQuestion": "Which of the following CSS property can be used to set the image as a border instead of the border style?",
+  "description": "The border-image-source property specifies the path to the image to be used as a border (instead of the normal border around an element).",
+  "correct": "border-image-source",
+  "lesson": {
+    "$oid": "631215d14f6ba82da0a75245"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63122eb7c18ba449e0680fa4"
+  },
+  "answers": [
+    "border-collapse",
+    "padding",
+    "border",
+    "border-width"
+  ],
+  "aQuestion": "Which of the following CSS property defines the different properties of all four sides of an element’s border in a single declaration?",
+  "description": "The border-width property sets the width of an element’s four borders. This property can have from one to four values.",
+  "correct": "border-width",
+  "lesson": {
+    "$oid": "631215d14f6ba82da0a75245"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63122f1cc18ba449e0680fb5"
+  },
+  "answers": [
+    "table:border",
+    "table",
+    "none of the mentioned",
+    "border"
+  ],
+  "aQuestion": "Which of the following CSS property is used to specify table borders in CSS ?",
+  "description": "None",
+  "correct": "border",
+  "lesson": {
+    "$oid": "631215d14f6ba82da0a75245"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63122fa9c18ba449e0680fce"
+  },
+  "answers": [
+    "Box having dotted bottom outline, solid right outline, double top outline and dashed left outline",
+    "Box having dotted bottom outline, solid left outline, double top outline and dashed left outline",
+    "Box having dotted top outline, solid left outline, double bottom outline and dashed right outline",
+    "Box having dotted top outline, solid right outline, double bottom outline and dashed left outline"
+  ],
+  "aQuestion": "What will be the output of the following CSS code?\\n\\tdiv { border-width:5px; border-style:dotted solid double dashed; }",
+  "description": "None",
+  "correct": "Box having dotted top outline, solid right outline, double bottom outline and dashed left outline",
+  "lesson": {
+    "$oid": "631215d14f6ba82da0a75245"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63122ffdc18ba449e0680fdf"
+  },
+  "answers": [
+    "border-style",
+    "border",
+    "none of the mentioned",
+    "border-spacing"
+  ],
+  "aQuestion": "Which of the following CSS property defines the space between cells in a table ?",
+  "description": "Border-spacing property defines the space between cells in a table.\\nSyntax: border-spacing: non-negative length(s) | inherit",
+  "correct": "border-spacing",
+  "lesson": {
+    "$oid": "631215d14f6ba82da0a75245"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6312309bc18ba449e0680ff7"
+  },
+  "answers": [
+    "background-image",
+    "background-colors",
+    "background-position",
+    "background-color"
+  ],
+  "aQuestion": "Which of the following property sets an element’s background color ?",
+  "description": "None",
+  "correct": "background-color",
+  "lesson": {
+    "$oid": "631215aa4f6ba82da0a75241"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631230dfc18ba449e0681000"
+  },
+  "answers": [
+    "background-scroll",
+    "background-attach",
+    "background-allowance",
+    "background-attachment"
+  ],
+  "aQuestion": "Which of the following property sets the background image to scroll or not to scroll with its associated element’s content?",
+  "description": "Syntax: background-attachment: scroll | fixed | inherit",
+  "correct": "background-attachment",
+  "lesson": {
+    "$oid": "631215aa4f6ba82da0a75241"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63123199c18ba449e0681019"
+  },
+  "answers": [
+    "Strong have yellow background",
+    "Both p and strong have yellow background",
+    "None of the mentioned",
+    "Strong element within a p element have a yellow background"
+  ],
+  "aQuestion": "What will be the output of the following mentioned code snippet?\\n\\tp strong { background-color: yellow; }",
+  "description": "All occurrences of the strong element within a p element have a yellow background.",
+  "correct": "Strong element within a p element have a yellow background",
+  "lesson": {
+    "$oid": "631212f94f6ba82da0a75229"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631231ebc18ba449e068102c"
+  },
+  "answers": [
+    "E#id",
+    ".class",
+    "*",
+    "#id"
+  ],
+  "aQuestion": "Which of the following selectors selects any tag with an id attribute set ?",
+  "description": "Example: #test {color: green;}\\n\\t/* makes a tag with id=’test’ green */",
+  "correct": "#id",
+  "lesson": {
+    "$oid": "631212f94f6ba82da0a75229"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63123255c18ba449e0681045"
+  },
+  "answers": [
+    "height",
+    "padding-height",
+    "top",
+    "padding-top"
+  ],
+  "aQuestion": " Which of the following property adds padding to the top of an element ?",
+  "description": "None",
+  "correct": "padding-top",
+  "lesson": {
+    "$oid": "6312160e4f6ba82da0a75258"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63123299c18ba449e068104a"
+  },
+  "answers": [
+    "border",
+    "padding",
+    "none of the mentioned",
+    "margin"
+  ],
+  "aQuestion": "Which of the following property sets a consistent margin on all four sides of the affected element ?",
+  "description": "None",
+  "correct": "margin",
+  "lesson": {
+    "$oid": "631215fd4f6ba82da0a75254"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63123382c18ba449e0681063"
+  },
+  "answers": [
+    "c",
+    "centi",
+    "centimeter",
+    "cm"
+  ],
+  "aQuestion": "Which of the following measurement defines a measurement in centimeters ?",
+  "description": "None",
+  "correct": "cm",
+  "lesson": {
+    "$oid": "6312164b4f6ba82da0a7525c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631233aac18ba449e0681068"
+  },
+  "answers": [
+    "px",
+    "in",
+    "pt",
+    "em"
+  ],
+  "aQuestion": "Which of the following measurement defines a measurement relative to the height of a font in em spaces ?",
+  "description": "Defines a measurement relative to the height of a font in em spaces. Because an em unit is equivalent to the size of a given font, if you assign a font to 12pt, each em unit would be 12pt, thus 2em would be 24pt",
+  "correct": "em",
+  "lesson": {
+    "$oid": "6312164b4f6ba82da0a7525c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631233c7c18ba449e068106d"
+  },
+  "answers": [
+    "px",
+    "in",
+    "em",
+    "pt"
+  ],
+  "aQuestion": "Which of the following measurement defines a measurement in points ?",
+  "description": "Defines a measurement in points. A point is defined as 1/72nd of an inch. A point does not equate to a pixel unless there are 72 pixels per inch onscreen.",
+  "correct": "pt",
+  "lesson": {
+    "$oid": "6312164b4f6ba82da0a7525c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631233e0c18ba449e0681072"
+  },
+  "answers": [
+    "em",
+    "pt",
+    "in"
+  ],
+  "aQuestion": "Which of the following measurement defines a measurement in inches ?",
+  "description": "Example: p { word-spacing: .25in; }",
+  "correct": "in",
+  "lesson": {
+    "$oid": "6312164b4f6ba82da0a7525c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6312340ec18ba449e0681078"
+  },
+  "answers": [
+    "in",
+    "pt",
+    "em",
+    "px"
+  ],
+  "aQuestion": "Which of the following measurement defines a measurement in pixels ?",
+  "description": "None",
+  "correct": "px",
+  "lesson": {
+    "$oid": "6312164b4f6ba82da0a7525c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631234fec18ba449e068108b"
+  },
+  "answers": [
+    "font-style",
+    "font",
+    "all of the mentioned",
+    "text-decoration"
+  ],
+  "aQuestion": "Which of the following CSS property is used to set the text formatting ?",
+  "description": "None",
+  "correct": "text-decoration",
+  "lesson": {
+    "$oid": "6312214f4f6ba82da0a75358"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63123528c18ba449e0681090"
+  },
+  "answers": [
+    "text-font",
+    "text-format",
+    "text-color",
+    "text-decoration-color"
+  ],
+  "aQuestion": "Which of the following sets the color of any text decoration, such as underlines, overlines, and strike throughs ?",
+  "description": "None",
+  "correct": "text-decoration-color",
+  "lesson": {
+    "$oid": "6312214f4f6ba82da0a75358"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6312354cc18ba449e0681095"
+  },
+  "answers": [
+    "text-decoration",
+    "text-line",
+    "text-decoration-line",
+    "text-style"
+  ],
+  "aQuestion": "Which of the following sets what kind of line decorations are added to an element, such as underlines, overlines, etc ?",
+  "description": "None",
+  "correct": "text-style",
+  "lesson": {
+    "$oid": "6312214f4f6ba82da0a75358"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63123569c18ba449e068109a"
+  },
+  "answers": [
+    "line",
+    "blink",
+    "underline",
+    "overline"
+  ],
+  "aQuestion": "Which of the following text-decoration value specifies each line of text has a line above it ?",
+  "description": "None",
+  "correct": "overline",
+  "lesson": {
+    "$oid": "6312214f4f6ba82da0a75358"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6312359ec18ba449e068109f"
+  },
+  "answers": [
+    "text-flow",
+    "text-underflow",
+    "none of the mentioned",
+    "text-overflow"
+  ],
+  "aQuestion": "Which of the following CSS property determines how overflowed content that is not displayed is signaled to the users ?",
+  "description": "None",
+  "correct": "text-overflow",
+  "lesson": {
+    "$oid": "6312214f4f6ba82da0a75358"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631236d8c18ba449e06810c0"
+  },
+  "answers": [
+    "With the padding property",
+    "With Line Breaks",
+    "None of the mentioned",
+    "With the margin property"
+  ],
+  "aQuestion": "How do we add space around the outside of an element?",
+  "description": "None",
+  "correct": "With the margin property",
+  "lesson": {
+    "$oid": "631215fd4f6ba82da0a75254"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631236fbc18ba449e06810c5"
+  },
+  "answers": [
+    "<br/> tags",
+    "With the Margin property",
+    "None of the mentioned",
+    "With the Padding property"
+  ],
+  "aQuestion": "How do we add space around the inside of an element?",
+  "description": "Padding property is used to add space inside the text field, when we have many inputs after each other we can also add some margin to add more space outside",
+  "correct": "With the Padding property",
+  "lesson": {
+    "$oid": "6312160e4f6ba82da0a75258"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6312372dc18ba449e06810ca"
+  },
+  "answers": [
+    "With shorthand padding code",
+    "You can't specify just one side",
+    "None of the mentioned",
+    "With the padding-left property"
+  ],
+  "aQuestion": "How do we designate the padding for just the left side ?",
+  "description": "",
+  "correct": "With the padding-left property",
+  "lesson": {
+    "$oid": "6312160e4f6ba82da0a75258"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631237a0c18ba449e06810d1"
+  },
+  "answers": [
+    "padding",
+    "border",
+    "width and height",
+    "margin"
+  ],
+  "aQuestion": "What is the outermost area of the CSS Box Model ?",
+  "description": "None",
+  "correct": "margin",
+  "lesson": {
+    "$oid": "631215fd4f6ba82da0a75254"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631237d4c18ba449e06810d6"
+  },
+  "answers": [
+    "padding: 20px 0;",
+    "padding: 0 20px 0 0;",
+    "padding-bottom: 20px;"
+  ],
+  "aQuestion": "Which of the following will add 20px of padding ONLY to the bottom of an element ?",
+  "description": "bottom-padding: 20px;",
+  "correct": "padding-bottom: 20px;",
+  "lesson": {
+    "$oid": "6312160e4f6ba82da0a75258"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63123807c18ba449e06810db"
+  },
+  "answers": [
+    "border-right:3%;",
+    "padding-right:3%;",
+    "content-right:3%;",
+    "margin-right:3%;"
+  ],
+  "aQuestion": "Which CSS code would create a 3% space between two touching elements so that they are no longer touching ?",
+  "description": "None",
+  "correct": "margin-right:3%;",
+  "lesson": {
+    "$oid": "631215fd4f6ba82da0a75254"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63123834c18ba449e06810e0"
+  },
+  "answers": [
+    "image-background:url(\"dog.jpg\");",
+    "background:src(\"dog.jpg\");",
+    "background-image: src(\"dog.jpg\");",
+    "background-image: url(\"dog.jpg\");"
+  ],
+  "aQuestion": "Which CSS code have the correct syntax for adding a background image to an element ?",
+  "description": "",
+  "correct": "background-image: url(\"dog.jpg\");",
+  "lesson": {
+    "$oid": "631215aa4f6ba82da0a75241"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631238b6c18ba449e06810fa"
+  },
+  "answers": [
+    "size-font: 32px;",
+    "text-size:32px;",
+    "size-text:32px;",
+    "font-size: 32px;"
+  ],
+  "aQuestion": "Which CSS code would change the font size of a text to 32px ?",
+  "description": "",
+  "correct": "font-size: 32px;",
+  "lesson": {
+    "$oid": "6312214f4f6ba82da0a75358"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63131af76131c63a0c67cbb0"
+  },
+  "answers": [
+    "var",
+    "let",
+    "None of the mentioned",
+    "Both var and let"
+  ],
+  "aQuestion": "Which of the following keywords is used to define a variable in JavaScript ?",
+  "description": "",
+  "correct": "Both var and let",
+  "lesson": {
+    "$oid": "63131a956131c63a0c67cba9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63131b3c6131c63a0c67cbb7"
+  },
+  "answers": [
+    "let",
+    "var",
+    "constant",
+    "const"
+  ],
+  "aQuestion": "How can a datatype be declared to be a constant type ?",
+  "description": "",
+  "correct": "const",
+  "lesson": {
+    "$oid": "63131a956131c63a0c67cba9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63131b726131c63a0c67cbb9"
+  },
+  "answers": [
+    "{ const x = 300; }",
+    "{ x = 321; }",
+    "{ var x = 500 }",
+    "{ let x = 400; }"
+  ],
+  "aQuestion": "Which code should be used  to declare a variable x and has its scope as block-level ?",
+  "description": "",
+  "correct": "{ let x = 400; }",
+  "lesson": {
+    "$oid": "63131a956131c63a0c67cba9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63131c716131c63a0c67cbc9"
+  },
+  "answers": [
+    " if (a ! null)",
+    "if ( !a )",
+    "if ( a!= null )",
+    "if (a !== null)"
+  ],
+  "aQuestion": "The snippet that has to be used to check if “a” is not equal to “null” is",
+  "description": "",
+  "correct": "if (a !== null)",
+  "lesson": {
+    "$oid": "63131a956131c63a0c67cba9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63131cd46131c63a0c67cbcc"
+  },
+  "answers": [
+    "Syntax error",
+    "Missing of semicolons",
+    "Missing of Bracket",
+    "Division by zero"
+  ],
+  "aQuestion": " Which of the following is not considered as an error in JavaScript ?",
+  "description": "",
+  "correct": "Division by zero",
+  "lesson": {
+    "$oid": "63131a956131c63a0c67cba9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63131d986131c63a0c67cbdd"
+  },
+  "answers": [
+    "exist",
+    "within",
+    "exists",
+    "in"
+  ],
+  "aQuestion": "Which of the operator is used to test if a particular property exists or not ?",
+  "description": "",
+  "correct": "in",
+  "lesson": {
+    "$oid": "63131d3b6131c63a0c67cbd6"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63131dc66131c63a0c67cbe2"
+  },
+  "answers": [
+    "+",
+    "-",
+    "=",
+    "?:"
+  ],
+  "aQuestion": "Among the following, which one is a ternary operator ?",
+  "description": "",
+  "correct": "?:",
+  "lesson": {
+    "$oid": "63131d3b6131c63a0c67cbd6"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63131e546131c63a0c67cbe9"
+  },
+  "answers": [
+    "hi",
+    "there",
+    "undefined",
+    "hithere"
+  ],
+  "aQuestion": "What will be the output of the following JavaScript code ? \\n\\tstring  a = ”hi”;\\n\\tstring  b =”there”;\\n\\talert(a+b);",
+  "description": "",
+  "correct": "hithere",
+  "lesson": {
+    "$oid": "63131d3b6131c63a0c67cbd6"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63131ffa6131c63a0c67cc0e"
+  },
+  "answers": [
+    "123.56",
+    "190",
+    "tall",
+    "short"
+  ],
+  "aQuestion": "What will be the output of the following JavaScript code ?\n\\nfunction height()\n\\n{\t\n    \\n\\tvar  height = 123.56;\n    \\n\\tvar type = (height>=190) ? \"tall\" : \"short\";\n    \\n\\treturn type;\n\\n}\n",
+  "description": "",
+  "correct": "short",
+  "lesson": {
+    "$oid": "63131d3b6131c63a0c67cbd6"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631320f66131c63a0c67cc1b"
+  },
+  "answers": [
+    "alert(10 / 5);",
+    "alert(10 x 5);",
+    "console.log(10 * 5);",
+    "alert(10 * 5);"
+  ],
+  "aQuestion": "Which is the right syntax to multiply 10 with 5, and alert the result ?",
+  "description": "",
+  "correct": "alert(10 * 5);",
+  "lesson": {
+    "$oid": "63131d3b6131c63a0c67cbd6"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63134fef031c9825accf36bc"
+  },
+  "answers": [
+    "10",
+    "5",
+    "Error",
+    "1"
+  ],
+  "aQuestion": "What will be the output of the following JavaScript code ?\\n\\tvar a=5 , b=1\\n\\tvar obj = { a : 10 }\\n\\twith(obj) \\n\\t{      \\n\\t\\talert(b)\\n\\t}",
+  "description": "",
+  "correct": "1",
+  "lesson": {
+    "$oid": "63134f56031c9825accf36a2"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6313504e031c9825accf36c6"
+  },
+  "answers": [
+    "conditional block",
+    "block that contains a single statement",
+    "both conditional block and a single statement",
+    "block that combines multiple statements into a single compound statement"
+  ],
+  "aQuestion": "What is a block statement in JavaScript ?",
+  "description": "",
+  "correct": "block that combines multiple statements into a single compound statement",
+  "lesson": {
+    "$oid": "63134f56031c9825accf36a2"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6313507d031c9825accf36cb"
+  },
+  "answers": [
+    "Prompts to complete the statement",
+    "Shows a warning",
+    "Throws an error",
+    "Ignores the statement"
+  ],
+  "aQuestion": " When an empty statement is encountered, a JavaScript interpreter ______",
+  "description": "",
+  "correct": "Ignores the statement",
+  "lesson": {
+    "$oid": "63134f56031c9825accf36a2"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631350a6031c9825accf36d0"
+  },
+  "answers": [
+    "Keywords",
+    "Data types",
+    "Prototypes",
+    "Declaration statements"
+  ],
+  "aQuestion": "The “var” and “function” are _____",
+  "description": "",
+  "correct": "Declaration statements",
+  "lesson": {
+    "$oid": "63134f56031c9825accf36a2"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631351f8031c9825accf36eb"
+  },
+  "answers": [
+    "==",
+    "equals",
+    "equal",
+    "==="
+  ],
+  "aQuestion": "In the following switch syntax, the expression is compared with the case labels using which of the following operator(s) ?\n\\n\\tswitch(expression)\n\\n\\t{\n    \\n\\t\\tstatements\n\\n\\t}",
+  "description": "",
+  "correct": "===",
+  "lesson": {
+    "$oid": "63134f56031c9825accf36a2"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6313540d031c9825accf3719"
+  },
+  "answers": [
+    "This results in an error",
+    "This results in an exception",
+    "The omitted value takes an integer value",
+    "The omitted value takes “undefined”"
+  ],
+  "aQuestion": "What is the observation made in the following JavaScript code ?\n\\n\\tvar count = [1,,3];",
+  "description": "",
+  "correct": "The omitted value takes “undefined”",
+  "lesson": {
+    "$oid": "631353a4031c9825accf3706"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63135450031c9825accf3720"
+  },
+  "answers": [
+    "false true",
+    "true true",
+    "false false",
+    "true false"
+  ],
+  "aQuestion": "What will be the output of the following JavaScript code ?\n\\n\\tvar a1 = [,,,]; \n\\n\\tvar a2 = new Array(3); \n\\n\\t0 in a1 \n\\n\\t0 in a2",
+  "description": "",
+  "correct": "true false",
+  "lesson": {
+    "$oid": "631353a4031c9825accf3706"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631354b9031c9825accf3726"
+  },
+  "answers": [
+    "increments the total length by 1",
+    "prints the first element but no effect on the length",
+    "updates the element",
+    "decrements the total length by 1"
+  ],
+  "aQuestion": "The pop() method of the array does which of the following task ?",
+  "description": "",
+  "correct": "decrements the total length by 1",
+  "lesson": {
+    "$oid": "631353a4031c9825accf3706"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631354ec031c9825accf372b"
+  },
+  "answers": [
+    "Skips the defined elements",
+    "Skips the existent elements",
+    "Skips the defined & existent elements",
+    "Skips the null elements"
+  ],
+  "aQuestion": "What is the observation made in the following JavaScript code ?\n\\n\\tif (!a[i]) continue;",
+  "description": "",
+  "correct": "Skips the null elements",
+  "lesson": {
+    "$oid": "631353a4031c9825accf3706"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63135515031c9825accf3730"
+  },
+  "answers": [
+    "Reverses and concatenates the elements of the array",
+    "Reverses",
+    "Stores the elements of an array in normal order",
+    "Reverses and stores in the same array"
+  ],
+  "aQuestion": "What will happen if reverse() and join() methods are used simultaneously ?",
+  "description": "",
+  "correct": "Reverses and stores in the same array",
+  "lesson": {
+    "$oid": "631353a4031c9825accf3706"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631355f2031c9825accf3746"
+  },
+  "answers": [
+    "Found unnecessary",
+    "Attributes have attributes",
+    "Considered irrelevant",
+    "Attributes don’t have attributes"
+  ],
+  "aQuestion": "What is the reason for avoiding the attributes property in the HTML DOM ?",
+  "description": "",
+  "correct": "Attributes don’t have attributes",
+  "lesson": {
+    "$oid": "631355c6031c9825accf3741"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63135640031c9825accf374d"
+  },
+  "answers": [
+    "All the possible elements",
+    "Debugging elements",
+    "Collecting elements",
+    "User Interface elements"
+  ],
+  "aQuestion": "What is the work of the form control elements in the HTML DOM ?",
+  "description": "",
+  "correct": "User Interface elements",
+  "lesson": {
+    "$oid": "631355c6031c9825accf3741"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6313565e031c9825accf3752"
+  },
+  "answers": [
+    "Class-wise",
+    "Stack",
+    "Queue",
+    "Hierarchy"
+  ],
+  "aQuestion": "How are the objects organized in the HTML DOM ?",
+  "description": "",
+  "correct": "Hierarchy",
+  "lesson": {
+    "$oid": "631355c6031c9825accf3741"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631356be031c9825accf375e"
+  },
+  "answers": [
+    "Document Object",
+    "Form Object",
+    "Form Control Elements",
+    "Window Object"
+  ],
+  "aQuestion": "Which object is the top of the HTML DOM hierarchy ?",
+  "description": "",
+  "correct": "Window Object",
+  "lesson": {
+    "$oid": "631355c6031c9825accf3741"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63135736031c9825accf376f"
+  },
+  "answers": [
+    " Arrays",
+    "Attributes",
+    "Elements",
+    "Node"
+  ],
+  "aQuestion": "How is everything treated in HTML DOM ?",
+  "description": "",
+  "correct": "Node",
+  "lesson": {
+    "$oid": "631355c6031c9825accf3741"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630f90cf2011b133341a735a"
+  },
+  "answers": [
+    "Hyper Text Markup Language",
+    "Hype Text Mark Language",
+    "High Text Mark Language",
+    "High Text Markup Language"
+  ],
+  "aQuestion": "What is HTML stand for ?",
+  "description": "",
+  "correct": "Hyper Text Markup Language",
+  "lesson": {
+    "$oid": "6308d0bb870dea3a1c40bf63"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630f91142011b133341a7367"
+  },
+  "answers": [
+    "Hyper Text Markup Language",
+    "Hype Text Mark Language",
+    "High Text Mark Language",
+    "High Text Markup Language"
+  ],
+  "aQuestion": "What is HTML stand for ?",
+  "description": "",
+  "correct": "Hyper Text Markup Language",
+  "lesson": {
+    "$oid": "6308d0ee870dea3a1c40bf6b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630f91652011b133341a736c"
+  },
+  "answers": [
+    "Create Website",
+    "Create Application",
+    "Create music video",
+    "Create picture"
+  ],
+  "aQuestion": "What is HTML using for ?",
+  "description": "",
+  "correct": "Create Website",
+  "lesson": {
+    "$oid": "6308d0ee870dea3a1c40bf6b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630f92152011b133341a7371"
+  },
+  "answers": [
+    "1994",
+    "1990",
+    "1991",
+    "1992"
+  ],
+  "aQuestion": "When was HTML created ?",
+  "description": "",
+  "correct": "1991",
+  "lesson": {
+    "$oid": "6308d0ee870dea3a1c40bf6b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630f92802011b133341a7373"
+  },
+  "answers": [
+    "Define picture",
+    "Define paragraph",
+    "Define audio",
+    "Define text"
+  ],
+  "aQuestion": "What is the use of '<p>' ?",
+  "description": "",
+  "correct": "Define paragraph",
+  "lesson": {
+    "$oid": "6308d0ee870dea3a1c40bf6b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630f93742011b133341a737b"
+  },
+  "answers": [
+    "<!DOCTYPE html>",
+    "<!DOC html>",
+    "<!TYPE html>",
+    "<! html>"
+  ],
+  "aQuestion": "Which is using to declaration the HTML ?",
+  "description": "",
+  "correct": "Define paragraph",
+  "lesson": {
+    "$oid": "6308d0ee870dea3a1c40bf6b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630f971c2011b133341a7386"
+  },
+  "answers": [
+    "RGBA",
+    "RGB",
+    "color name",
+    "Both answers are correct"
+  ],
+  "aQuestion": "Which is using to declaration color in HTML ?",
+  "description": "",
+  "correct": "Both answers are correct",
+  "lesson": {
+    "$oid": "630b05cbd1a7cce1f09cc246"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630f98cd2011b133341a738e"
+  },
+  "answers": [
+    "Yes",
+    "No"
+  ],
+  "aQuestion": "Can developer set the background color by uing HTML ?",
+  "description": "",
+  "correct": "No",
+  "lesson": {
+    "$oid": "630b05cbd1a7cce1f09cc246"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630f99ce2011b133341a7396"
+  },
+  "answers": [
+    "Background",
+    "Text",
+    "Picture",
+    "Border"
+  ],
+  "aQuestion": "Which can not be set color in HTML ?",
+  "description": "",
+  "correct": "Picture",
+  "lesson": {
+    "$oid": "630b05cbd1a7cce1f09cc246"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63104369ad1f924d246b1092"
+  },
+  "answers": [
+    "Yes, we can",
+    "No, we can't"
+  ],
+  "aQuestion": "Can we use HSL values to set color in HTML ?",
+  "description": "",
+  "correct": "Yes, we can",
+  "lesson": {
+    "$oid": "630b05cbd1a7cce1f09cc246"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6310447aad1f924d246b1094"
+  },
+  "answers": [
+    "Yes, they can",
+    "No, they can't"
+  ],
+  "aQuestion": "Can developers color seperately between two line in paragraph ?",
+  "description": "",
+  "correct": "Yes, they can",
+  "lesson": {
+    "$oid": "630b05cbd1a7cce1f09cc246"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6310462bad1f924d246b1096"
+  },
+  "answers": [
+    "Collect user data",
+    "To fill in the space",
+    "To make the website look nice",
+    "To give information"
+  ],
+  "aQuestion": "What is the purpose of HTML forms ?",
+  "description": "",
+  "correct": "Collect user data",
+  "lesson": {
+    "$oid": "630f962eb329ef9cbd3ff5bd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63104717ad1f924d246b109e"
+  },
+  "answers": [
+    "<forms>",
+    "<form>",
+    "<f>",
+    "<fo>"
+  ],
+  "aQuestion": "Choose the right element to create forms ?",
+  "description": "",
+  "correct": "<form>",
+  "lesson": {
+    "$oid": "630f962eb329ef9cbd3ff5bd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6310482bad1f924d246b10a6"
+  },
+  "answers": [
+    "text",
+    "radio",
+    "card",
+    "checkbox"
+  ],
+  "aQuestion": "Which is the incorrect input type ?",
+  "description": "",
+  "correct": "card",
+  "lesson": {
+    "$oid": "630f962eb329ef9cbd3ff5bd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63104f45ad1f924d246b10b6"
+  },
+  "answers": [
+    "<legend>",
+    "<output>",
+    "<fieldset>",
+    "<datafield>"
+  ],
+  "aQuestion": "What is the wrong form elements ?",
+  "description": "",
+  "correct": "<datafield>",
+  "lesson": {
+    "$oid": "630f962eb329ef9cbd3ff5bd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631059dfad1f924d246b10b8"
+  },
+  "answers": [
+    "<radio>",
+    "<input type='radiobutton'>",
+    "<radiobutton>",
+    "<input type='radio'>"
+  ],
+  "aQuestion": "Which HTML code will display a radio button ?",
+  "description": "",
+  "correct": "input type='radio'",
+  "lesson": {
+    "$oid": "630f962eb329ef9cbd3ff5bd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63105b55ad1f924d246b10c0"
+  },
+  "answers": [
+    "img",
+    "src",
+    "h1",
+    "alt>"
+  ],
+  "aQuestion": "Which of the following is NOT included in the IMAGE tag code ?",
+  "description": "",
+  "correct": "h1",
+  "lesson": {
+    "$oid": "630f9631b329ef9cbd3ff5be"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63105c33ad1f924d246b10c8"
+  },
+  "answers": [
+    "<img 'dog.jpg'>",
+    "<img src='dog.jpg' alt='my dog'/>",
+    "img=dog.jpg",
+    "<src='dog.jpg'alt='my dog'>"
+  ],
+  "aQuestion": "Which is an example of a complete image tag ?",
+  "description": "",
+  "correct": "<img src='dog.jpg' alt='my dog'/>",
+  "lesson": {
+    "$oid": "630f9631b329ef9cbd3ff5be"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63105c83ad1f924d246b10d0"
+  },
+  "answers": [
+    "image",
+    "source",
+    "imagine",
+    "photo"
+  ],
+  "aQuestion": "IMG is short for: ",
+  "description": "",
+  "correct": "image",
+  "lesson": {
+    "$oid": "630f9631b329ef9cbd3ff5be"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63105cf7ad1f924d246b10d2"
+  },
+  "answers": [
+    "Yes",
+    "No"
+  ],
+  "aQuestion": "Can I use an image without giving credit to the website and owner of the photo ?",
+  "description": "",
+  "correct": "No",
+  "lesson": {
+    "$oid": "630f9631b329ef9cbd3ff5be"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63105d4aad1f924d246b10d4"
+  },
+  "answers": [
+    "h1",
+    "h6",
+    ".jpeg",
+    "src="
+  ],
+  "aQuestion": "What is missing from this image tag? <img='cat.jpeg' alt='cat'/>",
+  "description": "",
+  "correct": "src=",
+  "lesson": {
+    "$oid": "630f9631b329ef9cbd3ff5be"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63105e4cad1f924d246b10dc"
+  },
+  "answers": [
+    "<table>",
+    "<tbl>",
+    "</table>",
+    "</tbl>"
+  ],
+  "aQuestion": "Which of the following tag is used to begin creating a table in an HTML document ?",
+  "description": "",
+  "correct": "<table>",
+  "lesson": {
+    "$oid": "630f9633b329ef9cbd3ff5bf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6311f70ef1a28d50805d2e44"
+  },
+  "answers": [
+    "<col>",
+    "<td>",
+    "<tcol>",
+    "<data>"
+  ],
+  "aQuestion": "Which of the following will create a column in an HTML table ?",
+  "description": "",
+  "correct": "<td>",
+  "lesson": {
+    "$oid": "630f9633b329ef9cbd3ff5bf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6311f7bff1a28d50805d2e4c"
+  },
+  "answers": [
+    "<thead>,placed after <table> tag",
+    "<thead>,placed right before <table> tag",
+    "<caption>,placed after <table> tag",
+    "<caption>,placed right before <table> tag"
+  ],
+  "aQuestion": "Which element defines a caption for a table, and where should it be placed ?",
+  "description": "",
+  "correct": "<caption>,placed after <table> tag",
+  "lesson": {
+    "$oid": "630f9633b329ef9cbd3ff5bf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6311f824f1a28d50805d2e4e"
+  },
+  "answers": [
+    " <table>,<tr>,<th>",
+    "<table>,<tr>,<tc>",
+    "<table>,<tr>,<td>"
+  ],
+  "aQuestion": "Which elements define a table, a table row, and a standard table cell ?",
+  "description": "",
+  "correct": "<table>,<tr>,<td>",
+  "lesson": {
+    "$oid": "630f9633b329ef9cbd3ff5bf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6311f884f1a28d50805d2e50"
+  },
+  "answers": [
+    "<input type='check'>",
+    "<check>",
+    "<checkbox>",
+    "<input type='checkbox'>"
+  ],
+  "aQuestion": "Which defines a checkbox ?",
+  "description": "",
+  "correct": "<table>,<tr>,<td>",
+  "lesson": {
+    "$oid": "630f9633b329ef9cbd3ff5bf"
+  },
+  "__v": 0
+}]

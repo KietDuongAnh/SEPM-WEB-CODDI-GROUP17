@@ -1,0 +1,171 @@
+[{
+  "_id": {
+    "$oid": "631212f94f6ba82da0a75229"
+  },
+  "titleLesson": "CSS Selectors",
+  "descriptionLesson": "In CSS, selectors are patterns used to select the element(s) you want to style.",
+  "course": {
+    "$oid": "631210c24f6ba82da0a75214"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631215aa4f6ba82da0a75241"
+  },
+  "titleLesson": "CSS Backgrounds",
+  "descriptionLesson": "The CSS background properties are used to add background effects for elements.",
+  "course": {
+    "$oid": "631210c24f6ba82da0a75214"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631215d14f6ba82da0a75245"
+  },
+  "titleLesson": "CSS Borders",
+  "descriptionLesson": "The CSS border properties allow you to specify the style, width, and color of an element's border.",
+  "course": {
+    "$oid": "631210c24f6ba82da0a75214"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631215fd4f6ba82da0a75254"
+  },
+  "titleLesson": "CSS Margins",
+  "descriptionLesson": "Margins are used to create space around elements, outside of any defined borders.",
+  "course": {
+    "$oid": "631210c24f6ba82da0a75214"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6312160e4f6ba82da0a75258"
+  },
+  "titleLesson": "CSS Padding",
+  "descriptionLesson": "Padding is used to create space around an element's content, inside of any defined borders.",
+  "course": {
+    "$oid": "631210c24f6ba82da0a75214"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6312164b4f6ba82da0a7525c"
+  },
+  "titleLesson": "CSS Measurements",
+  "descriptionLesson": "CSS has several different units for expressing a length. Many CSS properties take \"length\" values, such as width, margin, padding, font-size, etc. \\nThere are two types of length units: absolute and relative. The absolute length units are fixed and a length expressed in any of these will appear as exactly that size. Relative length units specify a length relative to another length property. Relative length units scale better between different rendering medium.",
+  "course": {
+    "$oid": "631210c24f6ba82da0a75214"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6312214f4f6ba82da0a75358"
+  },
+  "titleLesson": "CSS Text",
+  "descriptionLesson": "CSS has a lot of properties for formatting text. CSS has a lot of properties for formatting text.",
+  "course": {
+    "$oid": "631210c24f6ba82da0a75214"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63131a956131c63a0c67cba9"
+  },
+  "titleLesson": "JavaScript Variables",
+  "descriptionLesson": "Variables are containers for storing data.\n",
+  "course": {
+    "$oid": "63131a026131c63a0c67cb9f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63131d3b6131c63a0c67cbd6"
+  },
+  "titleLesson": "JavaScript Operators",
+  "descriptionLesson": "JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more.",
+  "course": {
+    "$oid": "63131a026131c63a0c67cb9f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63134f56031c9825accf36a2"
+  },
+  "titleLesson": "JavaScript Statements",
+  "descriptionLesson": "A computer program is a list of \"instructions\" to be \"executed\" by a computer.\n\\nIn a programming language, these programming instructions are called statements.\n\\nA JavaScript program is a list of programming statements.\n\\nJavaScript statements are composed of: Values, Operators, Expressions, Keywords, and Comments.",
+  "course": {
+    "$oid": "63131a026131c63a0c67cb9f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631353a4031c9825accf3706"
+  },
+  "titleLesson": "JavaScript Arrays",
+  "descriptionLesson": "An array is a special variable, which can hold more than one value.\n\\nFor example:\n\\n\\tconst devices = [\"phone\", \"tablet\", \"laptop\"];",
+  "course": {
+    "$oid": "63131a026131c63a0c67cb9f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "631355c6031c9825accf3741"
+  },
+  "titleLesson": "JavaScript HTML DOM",
+  "descriptionLesson": "With the HTML DOM, JavaScript can access and change all the elements of an HTML document.\n\\nThe HTML DOM (Document Object Model)\n\\nWhen a web page is loaded, the browser creates a Document\nObject Model of the page.",
+  "course": {
+    "$oid": "63131a026131c63a0c67cb9f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6308d0ee870dea3a1c40bf6b"
+  },
+  "titleLesson": "Basic HTML",
+  "descriptionLesson": "In this lesson we will learn about HTML",
+  "__v": 0,
+  "course": {
+    "$oid": "6308d0bb870dea3a1c40bf63"
+  }
+},{
+  "_id": {
+    "$oid": "630b05cbd1a7cce1f09cc246"
+  },
+  "titleLesson": "HTML color",
+  "descriptionLesson": "In this lesson we will learn about using color by HTML",
+  "__v": 0,
+  "course": {
+    "$oid": "6308d0bb870dea3a1c40bf63"
+  }
+},{
+  "_id": {
+    "$oid": "630f962eb329ef9cbd3ff5bd"
+  },
+  "titleLesson": "HTML forms",
+  "descriptionLesson": "In this lesson we will learn about using color by HTML",
+  "__v": 0,
+  "course": {
+    "$oid": "6308d0bb870dea3a1c40bf63"
+  }
+},{
+  "_id": {
+    "$oid": "630f9631b329ef9cbd3ff5be"
+  },
+  "titleLesson": "HTML images",
+  "descriptionLesson": "In this lesson we will learn about using color by HTML",
+  "__v": 0,
+  "course": {
+    "$oid": "6308d0bb870dea3a1c40bf63"
+  }
+},{
+  "_id": {
+    "$oid": "630f9633b329ef9cbd3ff5bf"
+  },
+  "titleLesson": "HTML tables",
+  "descriptionLesson": "In this lesson we will learn about using color by HTML",
+  "__v": 0,
+  "course": {
+    "$oid": "6308d0bb870dea3a1c40bf63"
+  }
+}]

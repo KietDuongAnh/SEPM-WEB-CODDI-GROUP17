@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "631210c24f6ba82da0a75214"
+  },
+  "title": "CSS",
+  "description": "Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63131a026131c63a0c67cb9f"
+  },
+  "title": "JavaScript",
+  "description": "JavaScript is a popular programming language used to create interactive web pages. It is integrated and embedded in HTML to make the website more engaging.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6308d0bb870dea3a1c40bf63"
+  },
+  "title": "HTML",
+  "description": "Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.",
+  "__v": 0
+}]
