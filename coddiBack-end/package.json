@@ -8,7 +8,7 @@
     "start": "npm run dev",
     "server": "nodemon server.js",
     "client": "(cd ../coddiFront-end && npm start)",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "(npm run server && npm run client)"
   },
   "keywords": [
     "node.js",
