@@ -9,7 +9,7 @@
     "server": "nodemon",
     "client": "(cd ../coddiFront-end && npm start)",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "npm run build client"
+    "build": "npm run build --prefix client"
   },
   "keywords": [
     "node.js",
